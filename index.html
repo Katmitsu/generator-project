@@ -7,38 +7,40 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          id="prompt"
-          placeholder="Enter your topic for the poem generator."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" value="Generate Poem" id="submit" />
-      </form>
-      <div>
-        The poem text will be displayed here:
-        <br />
-        The poem text will be displayed here
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Katmitsu">Katy Ciu</a> and is
-      <a href="https://github.com/Katmitsu/generator-project"
-        >open-sourced on Github</a
-      >
-      and a
-      <a href="https://project-poem-generator-kat.netlify.app/"
-        >is hosted on Netlify.</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Welcome to AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            id="prompt"
+            placeholder="Enter your topic for the poem generator."
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" value="Generate Poem" id="submit" />
+        </form>
+        <div class="poem">
+          The poem text will be displayed here:
+          <br />
+          The poem text will be displayed here
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Katmitsu">Katy Ciu</a> and is
+        <a href="https://github.com/Katmitsu/generator-project"
+          >open-sourced on Github</a
+        >
+        and a
+        <a href="https://project-poem-generator-kat.netlify.app/"
+          >is hosted on Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
