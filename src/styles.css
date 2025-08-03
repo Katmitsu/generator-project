@@ -85,6 +85,22 @@ form {
   display: none;
 }
 
+.generating {
+  animation: blink-animation 0.8s steps(3, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 footer {
   text-align: center;
   margin-top: 40px;
