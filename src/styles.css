@@ -28,7 +28,7 @@ form {
   display: flex;
 }
 
-#prompt {
+.instructions {
   flex: 1;
   padding: 16px;
   border: 1px solid #ccc;
@@ -58,6 +58,10 @@ form {
   color: #272044;
   box-shadow: #7b6f6f;
   border-left: 3px solid #553cb7;
+}
+
+.poem strong {
+  color: #553cb7;
 }
 
 footer {
