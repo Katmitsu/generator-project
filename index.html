@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Document</title>
   </head>
@@ -16,11 +17,12 @@
         <form id="poem-generator-form">
           <input
             type="text"
-            id="prompt"
             placeholder="Enter your topic for the poem generator."
             autofocus
             required
             autocomplete="off"
+            class="instructions"
+            id="user-instructions"
           />
           <input type="submit" value="Generate Poem" id="submit" />
         </form>
